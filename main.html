@@ -5,7 +5,7 @@
 <head>
 	<link rel="stylesheet" href="styles.css">
 	<style>
-    .input {
+    label:nth-child(odd) {
 		color: red;
 	}
 </style>
@@ -13,30 +13,17 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-	<label>
-        <input type="radio" name="options" value="option1"> Option 1
-    </label><br>
-
-    <label class="input">
-        <input type="radio" name="options" value="option2" disabled> Option 2
-    </label><br>
-
-    <label>
-        <input type="radio" name="options" value="option3" checked> Option 3 
-    </label><br>
-
-    <label class="input">
-        <input type="radio" name="options" value="option4"> Option 4
-    </label><br>
-
-    <label>
-        <input type="radio" name="options" value="option5"> Option 5
-    </label><br>
-
-    <label class="input">
-        <input type="radio" name="options" value="option6"> Option 6
-    </label><br>
+	<input type="radio" name="options" value="option1"><label>Option1</label>
+	<br>
+	<input type="radio" name="options" value="option2" disabled><label>Option2</label>
+	<br>
+	<input type="radio" name="options" value="option3" checked><label>Option3</label>
+	<br>
+	<input type="radio" name="options" value="option4"><label>Option4</label>
+	<br>
+	<input type="radio" name="options" value="option5"><label>Option5</label>
+	<br>
+	<input type="radio" name="options" value="option6"><label>Option6</label>
     <script type="text/javascript" src="./script.js">
 </script>
 
